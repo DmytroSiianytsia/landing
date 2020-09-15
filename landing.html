@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Rubik:wght@700&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="./landing.css">
+  <title>Landing</title>
+</head>
+
+<body>
+
+  <div class="main">
+    <div class="main__bg"></div>
+
+    <header class="header">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col">
+            <img class="header__logo" src="./img/logo-header.png"
+                 alt="top signals">
+          </div>
+          <div class="col text-right">
+            <button class="btn header__btn">
+              получить консультацию
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-7">
+
+          <h1 class="main__title">
+            <span class="main__title-span-bg">
+              ТОРГОВЫЕ СИГНАЛЫ
+            </span>
+            <br>
+            ОТ ЭКСПЕРТА КАЖДЫЙ ДЕНЬ В ВАШЕМ
+            <span class="main__title-span">TELEGRAM</span>
+          </h1>
+
+          <form class="form">
+            <div class="form__item">
+              <img class="form__item-icon" src="./img/icons/user.png"
+                   alt="user icon">
+              <input type="text" class="form-control form__field"
+                     placeholder="Введите имя">
+            </div>
+            <div class="form__item">
+              <img class="form__item-icon" src="./img/icons/mail.png"
+                   alt="mail icon">
+              <input type="text" class="form-control form__field"
+                     placeholder="E-mail">
+            </div>
+            <div class="form__item">
+              <img class="form__item-icon" src="./img/icons/phone.png"
+                   alt="phone icon">
+              <input type="text" class="form-control form__field"
+                     placeholder="Телефон">
+            </div>
+
+            <button class="btn form__btn">получить доступ</button>
+          </form>
+        </div>
+        <div class="col-5 d-flex justify-content-center">
+          <div class="main__img">
+            <img class="main__img-phone" src="./img/phone.png" alt="phone">
+          </div>
+        </div>
+      </div>
+
+      <div class="row advantages text-center align-items-center">
+        <div class="col advantages__item">
+          <div class="advantages__bg">3</div>
+          <h3 class="advantages__title">3 рынка</h3>
+          <p class="advantages__text">фондовый, товарный, валютный</p>
+        </div>
+        <div class="col advantages__item">
+          <div class="advantages__bg">15</div>
+          <h3 class="advantages__title">15%</h3>
+          <p class="advantages__text">средняя доходность в месяц</p>
+        </div>
+        <div class="col advantages__item">
+          <div class="advantages__bg">10</div>
+          <h3 class="advantages__title">до 10</h3>
+          <p class="advantages__text">торговых сигналов в день</p>
+        </div>
+        <div class="col advantages__item">
+          <div class="advantages__bg">90</div>
+          <h3 class="advantages__title">до 90%</h3>
+          <p class="advantages__text">прибыльность сигналов</p>
+        </div>
+        <div class="col advantages__item">
+          <div class="advantages__bg">80</div>
+          <h3 class="advantages__title">от 80</h3>
+          <p class="advantages__text">пунктов<br> за сделку</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="faq">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="faq__title">
+            КАК НАЧАТЬ ЗАРАБАТЫВАТЬ НА СИГНАЛАХ
+          </h2>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="row justify-content-between">
+          <div class="col-5">
+            <div class="card">
+              <h3 class="card__title">Кто разработчик?</h3>
+              <p class="card__text">
+                Торговые сигналы базируются на стратегиях, которые разрабатывают
+                управляющие активами
+              </p>
+            </div>
+          </div>
+          <div class="col-5">
+            <div class="card">
+              <h3 class="card__title">Как это работает?</h3>
+              <p class="card__text">
+                Торговые сигналы будут приходить вам в Телеграм-канал, а вы
+                будете открывать и закрывать сделки в телефоне
+              </p>
+            </div>
+          </div>
+        </div>
+        <img class="faq__img" src="./img/phone.png" alt="phone">
+        <div class="row justify-content-between">
+          <div class="col-5">
+            <div class="card">
+              <h3 class="card__title">Как протестировать?</h3>
+              <p class="card__text">
+                Убедиться в том, что торговые сигналы прибыльные, можно,
+                протестировав роботов, которые их присылают
+              </p>
+            </div>
+          </div>
+          <div class="col-5">
+            <div class="card">
+              <h3 class="card__title">Как снизить риски при торговле по
+                сигналам?</h3>
+              <p class="card__text">
+                Сигналы можно протестировать на демо счете в течение недели,
+                затем начать торговать минимальными объемами
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+          integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+          crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+          integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+          crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+          integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+          crossorigin="anonymous"></script>
+</body>
+
+</html>
